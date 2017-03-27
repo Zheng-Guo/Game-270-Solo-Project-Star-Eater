@@ -74,7 +74,7 @@ public class GameController : MonoBehaviour {
             Application.Quit();
         if (Input.GetKey(KeyCode.R))
         {
-            SceneManager.LoadScene("Star Eater prototype");
+            SceneManager.LoadScene("Star Eater");
         }
         if (DisplayCount > GameConstant.BufferTime/2)
         {
